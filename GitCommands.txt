@@ -1,0 +1,30 @@
+Command 1
+git add <filename> #adds file to stage/index field. from workspace
+git commit -m "enter message" # commit the change to main branch
+
+command 2
+
+git checkout -- <filename> #discard change to workspace
+git reset HEAD <filename> #unstage file added to stage/index field.
+git reset --hard HEAD~N # resets main branch back N number of times
+
+command 3: Link GitHub
+git remote add origin https://github.com/UserName/RespositoryName.git # adding remote server: origin
+
+git push -u origin master # push master into origin, -u for simplifying later commands, as respository empty
+
+command 4: clone Respository
+
+git clone https://.....................//RespositoryName.git
+
+command 5£º branching 
+
+git checkout -b BranchName #creates a branch, and switch to it (checkout) Everything modified in here will not be seen in master
+
+git merge BranchName
+
+git branch -d BranchName
+
+
+
+
