@@ -1,7 +1,15 @@
+Command 0 
+  git init #initializes git in this file
+  
+  rm -rf .git # removes the git files thus cancels git in this file.
+
+
+
 Command 1
 git add <filename> #adds file to stage/index field. from workspace
 git commit -m "enter message" # commit the change to main branch
 
+git add -A # adds all changes
 command 2
 
 git checkout -- <filename> #discard change to workspace
@@ -17,7 +25,7 @@ command 4: clone Respository
 
 git clone https://.....................//RespositoryName.git
 
-command 5£º branching 
+command 5Â£Âº branching 
 
 git checkout -b BranchName #creates a branch, and switch to it (checkout) Everything modified in here will not be seen in master
 
